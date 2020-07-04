@@ -36,6 +36,17 @@ main ul {
     
 }
 
+main ol {
+
+    color:#335C81;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
 main ul li a{
 
 
