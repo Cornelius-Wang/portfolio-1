@@ -75,6 +75,14 @@ img {
 
 }
 
+.img-style {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 .wrapper {
 
    width: 50%;
@@ -190,6 +198,7 @@ header nav ul a {
     margin: 14px 0;
     text-align: center;
     padding-top: 0;
+    padding-left: 5%;
 
   }
 
@@ -216,6 +225,14 @@ header nav ul a {
     margin-bottom: 100px;
 
   } 
+
+  .img-style {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
 
 
 }
