@@ -149,6 +149,7 @@ header h1 {
   margin: 0;
   text-align: center;
   padding-top: 20px;
+  color: #fff;
 
 }
 
@@ -216,7 +217,7 @@ header nav ul a {
     text-decoration: none;
     padding: 0 20px 0 0;
 
-  }
+  } 
 
   .group {
 
