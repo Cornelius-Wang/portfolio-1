@@ -25,6 +25,8 @@ main.p {
 
 }
 
+/* Styling lists */
+
 main ul {
 
     color:#335C81;
@@ -34,6 +36,15 @@ main ul {
     flex-direction: column;
     justify-content: center;
     
+}
+
+main ul li a{
+
+
+    font-family: Source Sans Pro;
+    text-decoration: none;
+    margin: 0 20px 20px 0;
+
 }
 
 main ol {
@@ -47,7 +58,7 @@ main ol {
     
 }
 
-main ul li a{
+main ol li a{
 
 
     font-family: Source Sans Pro;
