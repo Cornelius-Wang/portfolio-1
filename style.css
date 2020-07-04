@@ -1,0 +1,195 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=MuseoModerno:wght@900&display=swap');
+
+
+/* General Styles */
+
+main {
+    
+    padding: 100px;
+    
+}
+
+main.h1 {
+
+    margin: 100px;
+    padding: 50px 50px 10px 50px;
+    font-size: 50px;
+
+}
+
+main.p {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+main ul {
+
+    color:#335C81;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+main ul li a{
+
+
+    font-family: Source Sans Pro;
+    text-decoration: none;
+    margin: 0 20px 20px 0;
+
+}
+
+img {
+
+    width: 100%;
+
+}
+
+.wrapper {
+
+   width: 50%;
+   margin: auto;
+   color: #335C81;
+
+}
+
+
+
+
+
+hr {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.group {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+}
+
+.item {
+
+    flex: 1;
+    padding: 10px;
+
+}
+
+.item-double {
+
+    flex: 2;
+    padding: 10px;
+
+}
+
+
+
+/* Headers */
+
+
+
+header {
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  background-color: rgb(17, 39, 102);
+  margin-bottom: 100px;
+
+}
+
+header h1 {
+
+  font-family: 'MuseoModerno', cursive;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+header nav {
+
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color:#fff
+
+}
+
+header nav ul {
+
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+
+}
+
+header nav ul a {
+
+  color:#fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+
+}
+
+@media all and (min-width: 600px) {
+
+  header {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: rgb(17, 39, 102);
+    margin: 0 0 100px 0;
+
+  }
+
+  header h1 {
+
+    font-family: 'MuseoModerno', cursive;
+    color: #fff;
+    margin: 14px 0;
+    text-align: center;
+    padding-top: 0;
+
+  }
+
+  header nav {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+
+  }
+
+  header nav ul li a:hover{
+
+    color: #bdbdbd;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+
+  }
+
+  .group {
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+
+  } 
+
+
+}
