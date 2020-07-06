@@ -83,6 +83,16 @@ main ol li a{
 
 }
 
+main a{
+
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 20px 20px 0;
+
+}
+
 img {
 
     width: 80%;
@@ -101,7 +111,7 @@ img {
 
 .wrapper {
 
-   width: 50%;
+   width: 95%;
    margin: auto;
 
 }
@@ -271,7 +281,7 @@ form input, form textarea {
 
   .wrapper {
 
-    width: 90%;
+    width: 80%;
     margin: auto;
  
  }
@@ -296,7 +306,7 @@ form input, form textarea {
 
     display: block;
     font-size: 18px;
-    padding-right: 250px;
+    padding-right: 50px;
     margin-bottom: 5px;
     color: gray;
     font-family: 'Montserrat', sans-serif;
