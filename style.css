@@ -7,7 +7,7 @@
 
 main {
     
-    padding: 100px;
+    padding: 20px;
     
 }
 
@@ -103,7 +103,6 @@ img {
 
    width: 50%;
    margin: auto;
-   color: #335C81;
 
 }
 
@@ -263,6 +262,19 @@ form input, form textarea {
     padding: 0 20px 0 0;
 
   } 
+
+  main {
+    
+    padding: 100px;
+    
+  } 
+
+  .wrapper {
+
+    width: 90%;
+    margin: auto;
+ 
+ }
 
   .group {
 
