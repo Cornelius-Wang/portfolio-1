@@ -22,6 +22,7 @@ main.h1 {
 main.p {
 
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 
 }
 
@@ -35,6 +36,7 @@ main ul {
     list-style: none;
     flex-direction: column;
     justify-content: center;
+    font-size: 18px;
     
 }
 
@@ -55,6 +57,7 @@ main ol {
     list-style: none;
     flex-direction: column;
     justify-content: center;
+    font-size: 18px;
     
 }
 
@@ -127,7 +130,23 @@ hr {
 
 }
 
+/* Forms */
 
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: gray;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form textarea {
+  height: 4.75rem;
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 
 /* Headers */
 
@@ -179,6 +198,10 @@ header nav ul a {
 }
 
 /* Responsive Web Design */
+
+form input, form textarea {
+    width: 100%;
+}
 
 @media all and (min-width: 600px) {
 
