@@ -7,7 +7,8 @@
 
 main {
     
-    padding: 20px;
+    padding: 1em;
+    margin-top: 0px;
     
 }
 
@@ -96,16 +97,15 @@ main a{
 img {
 
     width: 80%;
-    display: flex;
-    justify-content: space-evenly;
 
 }
 
 .img-style {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 
 }
 
@@ -115,9 +115,6 @@ img {
    margin: auto;
 
 }
-
-
-
 
 
 hr {
@@ -154,6 +151,13 @@ hr {
 
 }
 
+.bg-primary a {
+
+  margin-right: 0;
+
+}
+
+
 /* Forms */
 
 form label {
@@ -188,7 +192,7 @@ header {
   justify-content: center;
   padding: 0;
   background-color: rgb(17, 39, 102);
-  margin-bottom: 100px;
+  margin-bottom: .5em;
 
 }
 
@@ -273,11 +277,11 @@ form input, form textarea {
 
   } 
 
-  main {
-    
-    padding: 100px;
-    
-  } 
+  img {
+
+    width: 60%;
+
+}
 
   .wrapper {
 
@@ -313,5 +317,25 @@ form input, form textarea {
   
   }
 
+
+}
+
+@media all and (min-width: 800px) {
+
+  section#about {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+
+  section#about .item{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
 
 }
